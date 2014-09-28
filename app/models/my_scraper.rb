@@ -2,7 +2,7 @@ class MyScraper
 	def self.scrape 
 
 		# Use the class methods to get down to business quickly
-response = HTTParty.get('http://www.brainyquote.com/quotes/authors/w/woody_allen.html')
+response = HTTParty.get('http://www.brainyquote.com/quotes/authors/m/mahatma_gandhi.html')
 		
 		doc = Nokogiri::HTML(response.body)
 
